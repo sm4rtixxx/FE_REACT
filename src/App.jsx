@@ -5,6 +5,7 @@ import MeteoInfo from './components/MeteoInfo.jsx';
 import MeteoRaffa from './components/MeteoRaffa.jsx';
 import Card from './components/Card/Card.jsx';
 import Card2 from './components/Card2/Card2.jsx';
+import Meteo from './components/Meteo.jsx';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <MeteoInfo />
       <Card />
       <Card2 />
+      <Meteo/>
     </>
   );
 }
