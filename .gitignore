@@ -24,4 +24,7 @@ dist-ssr
 *.sw?
 
 #File readme
-README.md
+README*
+
+#File readme
+*.zip
