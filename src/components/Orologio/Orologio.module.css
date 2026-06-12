@@ -1,0 +1,75 @@
+.pagina {
+  max-width: 600px;
+  margin: 3rem auto;
+}
+
+.pagina h2 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #6b7280;
+  margin-bottom: 1.25rem;
+}
+
+.orologio {
+  display: inline-block;
+  padding: 1.5rem 2.5rem;
+  background-color: #111827;
+  border-radius: 12px;
+  font-size: 48px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: #f9fafb;
+  font-variant-numeric: tabular-nums;
+  margin-bottom: 1.5rem;
+}
+
+.controlli {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.btnMostra {
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #6366f1;
+  color: #ffffff;
+  transition: background-color 0.15s;
+}
+
+.btnMostra:hover {
+  background-color: #4f46e5;
+}
+
+.placeholder {
+  padding: 1.5rem 2.5rem;
+  border: 2px dashed #e5e7eb;
+  border-radius: 12px;
+  font-size: 14px;
+  color: #9ca3af;
+  margin-bottom: 1.5rem;
+  display: inline-block;
+}
+
+.nota {
+  font-size: 13px;
+  color: #6b7280;
+  background-color: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  line-height: 1.6;
+}
+
+.nota code {
+  font-family: ui-monospace, Consolas, monospace;
+  font-size: 12px;
+  background-color: #f3f4f6;
+  padding: 2px 6px;
+  border-radius: 4px;
+  color: #374151;
+}

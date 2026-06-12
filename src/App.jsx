@@ -8,6 +8,8 @@ import Card2 from './components/Card2/Card2.jsx';
 import Utente from './components/Utente/Utente.jsx';
 import Box from './components/Box/Box.jsx';
 import Contatore from './components/Contatore/Contatore.jsx';
+import Semaforo from './components/Semaforo/Semaforo.jsx';
+import Orologio from './components/Orologio/Orologio.jsx';
 
 function App() {
   return (
@@ -20,7 +22,7 @@ function App() {
       {/* <MeteoInfo />     
       <Card2 /> */}
       {/* <Card /> */}
-      <Box colore="green">
+      {/* <Box colore="green">
         <h2>Titolo box1</h2>
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed dignissimos fugiat animi? Magni eum voluptate
@@ -33,8 +35,12 @@ function App() {
         <Box colore="blue">
           <p>con dentro un altro box</p>
         </Box>
-      </Box>
-      <Contatore></Contatore>
+      </Box> */}
+      {/* <Contatore></Contatore> */}
+      {/* <Box>
+        <Semaforo></Semaforo>
+      </Box> */}
+      <Orologio></Orologio>
     </>
   );
 }
