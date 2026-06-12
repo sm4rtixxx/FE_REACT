@@ -14,7 +14,7 @@ export default function Contatore() {
     <>
       <Box>
         <p>Contatore: {contatore}</p>
-        {/* <button onClick={() => setContatore(contatore + 2)}>+2</button> */}
+        {/* <button onClick={() => setContatore(contatore + 2)}>+2</button> Approccio sbagliato:il contatore non si aggiorna*/}
         <button onClick={() => (contatore = contatore + 2)}>+2</button>
         <button onClick={() => setContatore(0)}>reset</button>
         <button onClick={() => setContatore(contatore - 2)}>-2</button>
