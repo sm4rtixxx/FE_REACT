@@ -7,6 +7,7 @@ import Card from './components/Card/Card.jsx';
 import Card2 from './components/Card2/Card2.jsx';
 import Utente from './components/Utente/Utente.jsx';
 import Box from './components/Box/Box.jsx';
+import Contatore from './components/Contatore/Contatore.jsx';
 
 function App() {
   return (
@@ -27,6 +28,13 @@ function App() {
           sapiente distinctio.
         </p>
       </Box>
+      <Box colore="red">
+        <p>Ecco un altro box</p>
+        <Box colore="blue">
+          <p>con dentro un altro box</p>
+        </Box>
+      </Box>
+      <Contatore></Contatore>
     </>
   );
 }
