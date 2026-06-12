@@ -14,10 +14,11 @@ export default function Contatore() {
     <>
       <Box>
         <p>Contatore: {contatore}</p>
-        {/* <button onClick={() => setContatore(contatore + 2)}>+2</button> Approccio sbagliato:il contatore non si aggiorna*/}
-        <button onClick={() => (contatore = contatore + 2)}>+2</button>
+        <button onClick={() => setContatore(contatore + 2)}>+2</button>
+        {/* <button onClick={() => (contatore = contatore + 2)}>+2</button>  Approccio sbagliato: il contatore non si aggiorna*/}
         <button onClick={() => setContatore(0)}>reset</button>
-        <button onClick={() => setContatore(contatore - 2)}>-2</button>
+        <button onClick={() => (contatore > 0 ? setContatore(contatore - 2) : 0)}>-2</button>
+        {/* <button onClick={() => setContatore(Math.max(0, contatore - 2))}>-2</button>  Soluzione alternativa*/}
       </Box>
       <Box>
         <p>Contatore1: {contatori.contatore1}</p>
