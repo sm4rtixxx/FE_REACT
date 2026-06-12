@@ -10,14 +10,14 @@ import Utente from './components/Utente/Utente.jsx';
 function App() {
   return (
     <>
-      <Utente />
-      {/* <Biglietto nome="Giacomo" destinazione="Roma" />
+      {/* <Utente /> */}
+      <Biglietto nome="Giacomo" destinazione="Roma" />
       <Biglietto nome="Emma" destinazione="Bari" />
       <Biglietto nome="Marta" destinazione="Como" />
       <Biglietto destinazione="Marrachesh" />
-      <MeteoInfo />
-      <Card />
+      {/* <MeteoInfo />     
       <Card2 /> */}
+      {/* <Card /> */}
     </>
   );
 }
