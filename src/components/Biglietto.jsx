@@ -9,5 +9,3 @@ export default function Biglietto({nome = 'Viaggiatore anonimo', destinazione}) 
   );
 }
 // export default Biglietto;
-
-// commento prova martina

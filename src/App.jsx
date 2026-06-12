@@ -6,11 +6,14 @@ import MeteoRaffa from './components/MeteoRaffa.jsx';
 import Card from './components/Card/Card.jsx';
 import Card2 from './components/Card2/Card2.jsx';
 import Meteo from './components/Meteo.jsx';
+import Utente from './components/Utente/Utente.jsx';
+import Box from './components/Box/Box.jsx';
 
 function App() {
   return (
     <>
-      <h1>PRIMO REACT</h1>
+      
+<h1>PRIMO REACT</h1>
       <Biglietto nome="Giacomo" destinazione="Roma" />
       <Biglietto nome="Emma" destinazione="Bari" />
       <Biglietto nome="Marta" destinazione="Como" />
@@ -20,7 +23,6 @@ function App() {
       <Card2 />
       <Meteo/>
     </>
-  );
+  )
 }
-
-export default App;
+export default App
