@@ -11,6 +11,7 @@ import Box from './components/Box/Box.jsx';
 import Contatore from './components/Contatore/Contatore.jsx';
 import Semaforo from './components/Semaforo/Semaforo.jsx';
 import Orologio from './components/Orologio/Orologio.jsx';
+import Changetitle from './components/Changetitle/Changetitile.jsx';
 
 function App() {
   return (
@@ -40,8 +41,9 @@ function App() {
       {/* <Contatore></Contatore> */}
       {/* <Box>
         <Semaforo></Semaforo>
-      </Box> */}
-      <Orologio></Orologio>
+      </Box> 
+      <Orologio></Orologio> */}
+      <Changetitle/>
     </>
   );
 }
