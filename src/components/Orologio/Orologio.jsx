@@ -5,6 +5,7 @@ import {useState, useEffect} from 'react';
 //funzione figlia
 function OrologioFiglio() {
   const [ora, setOra] = useState(new Date());
+  // modifica per Giuseppe
 
   useEffect(() => {
     //usiamo setInterval per dimostrare lo useEffect perchè è gestito direttamente dal browser quindi react non è in grado di gestirlo se non attraverso l'hook useEffect
