@@ -19,21 +19,20 @@ export default function Registrastudente() {
   //Ogni studente sarà un oggetto {id:"", nome:""}
 
   const aggiungi = () => {
-    setStudenti([...studenti, {id: contatore.current, nome: nomeRef.current.value}]);
-    contatore.current++;
-    nomeRef.current.value = '';
-    nomeRef.current.focus();
+    if (nomeRef.current.value.trim()) {
+      setStudenti([...studenti, {id: contatore.current, nome: nomeRef.current.value}]);
+      contatore.current++;
+      nomeRef.current.value = '';
+      nomeRef.current.focus();
+    }
   };
 
-  const elimina = id => {
-    setStudenti(studenti.filter(studente => studente.id != id));
-  };
+  const elimina = id => setStudenti(studenti.filter(studente => studente.id != id));
 
-  const promuovi = id => {
+  const promuovi = id =>
     setStudenti(
-      studenti.map(studente => (studente.id == id ? {...studente, nome: studente.nome + ' - Promosso'} : {...studente}))
+      studenti.map(studente => (studente.id == id ? {...studente, nome: studente.nome + ' - Promosso'} : studente))
     );
-  };
 
   return (
     <Box>
