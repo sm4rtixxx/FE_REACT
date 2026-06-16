@@ -1,0 +1,46 @@
+.formWrap {
+  max-width: 420px;
+  padding: 1.5rem 0;
+}
+
+.formGroup {
+  margin-bottom: 1.25rem;
+}
+
+.formGroup label {
+  display: block;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 4px;
+}
+
+.formGroup input {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.inputErrore {
+  border-color: #e24b4a;
+}
+
+.msgErrore {
+  font-size: 13px;
+  color: #e24b4a;
+  margin-top: 4px;
+}
+
+.erroreGenerale {
+  font-size: 13px;
+  color: #e24b4a;
+  margin-bottom: 12px;
+}
+
+button[type='submit'] {
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+button[type='submit']:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
