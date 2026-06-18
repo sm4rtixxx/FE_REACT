@@ -16,6 +16,7 @@ import Contatoreuseref from './components/Contatoreuseref/Contatoreuseref.jsx';
 import Registrastudente from './components/Registrastudente/Registrastudente.jsx';
 import Formvalidation from './components/Formvalidation/Formvalidation.jsx';
 import Convertitoretemperatura from './components/Convertitoretemperatura/Convertitoretemperatura.jsx';
+import Fetchutente from './components/Fetchutente/Fetchutente.jsx';
 
 function App() {
   return (
@@ -52,7 +53,8 @@ function App() {
       {/* <Contatoreuseref /> */}
       {/* <Registrastudente /> */}
       {/* <Formvalidation /> */}
-      <Convertitoretemperatura />
+      {/* <Convertitoretemperatura /> */}
+      <Fetchutente />
     </>
   );
 }
